@@ -1,6 +1,7 @@
 # Overview
 This terraform module will deploy chef supermarket to one or more servers
-Supported platform families:
+
+### Supported platform families:
  * Debian
  * SLES
  * RHEL
