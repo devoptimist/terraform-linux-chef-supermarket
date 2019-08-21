@@ -28,7 +28,7 @@ locals {
 
 module "supermarket_build" {
   source            = "devoptimist/policyfile/chef"
-  version           = "0.0.3"
+  version           = "0.0.5"
   ips               = var.ips  
   instance_count    = local.instance_count
   dna               = local.dna
