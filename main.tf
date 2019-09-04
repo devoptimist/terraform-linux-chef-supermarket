@@ -28,7 +28,7 @@ locals {
 
 module "supermarket_build" {
   source            = "devoptimist/policyfile/chef"
-  version           = "0.0.5"
+  version           = "0.0.7"
   ips               = var.ips  
   instance_count    = local.instance_count
   dna               = local.dna
@@ -38,6 +38,7 @@ module "supermarket_build" {
   user_name         = var.ssh_user_name
   user_pass         = var.ssh_user_pass
   user_private_key  = var.ssh_user_private_key
+  timeout           = var.timeout
 }
 
 data "external" "supermarket_details" {
