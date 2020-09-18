@@ -36,7 +36,7 @@ variable "timeout" {
 variable "cookbooks" {
   description = "the cookbooks used to deploy chef supermarket"
   default     = {
-    "chef_supermarket_wrapper" = "github: 'devoptimist/chef_supermarket_wrapper', tag: 'v0.1.7'",
+    "chef_supermarket_wrapper" = "github: 'srb3/chef_supermarket_wrapper', tag: 'v0.1.7'",
     "chef-ingredient"          = "github: 'chef-cookbooks/chef-ingredient', tag: 'v3.1.1'"
   }
 }
